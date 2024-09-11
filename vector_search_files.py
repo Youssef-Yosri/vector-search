@@ -4,7 +4,6 @@ def search():
     from pymongo import MongoClient
     import numpy as np
     import faiss
-    import numpy as np
 
     tokenizer = BertTokenizer.from_pretrained('bert-large-uncased')
     model = BertModel.from_pretrained('bert-large-uncased')
