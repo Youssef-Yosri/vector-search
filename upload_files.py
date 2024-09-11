@@ -15,7 +15,7 @@ def upload():
     import numpy as np
     import faiss
     
-    folder_path = input("Enter folder path to upload files from: ")
+    folder_path = input("Enter folder path to upload files from (test with the Samples folder if you have no folder): ")
     files = glob.glob(os.path.join(folder_path, '*'))
     
     for file in files:
